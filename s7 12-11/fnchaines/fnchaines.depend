@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1605203102 source:c:\users\hdcom\desktop\programing\s7 12-11\fnchaines\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1604665352 source:c:\users\hdcom\desktop\programing\anas programe\main.c
+	<stdio.h>
+	<stdlib.h>
+

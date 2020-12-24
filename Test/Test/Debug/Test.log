@@ -1,0 +1,8 @@
+﻿  main.c
+C:\Users\anas\Desktop\programing\Test\Test\main.c(9,9): warning C4101: 'entier' : variable locale non référencée
+C:\Users\anas\Desktop\programing\Test\Test\main.c(10,43): warning C4101: 'dicimaux' : variable locale non référencée
+C:\Users\anas\Desktop\programing\Test\Test\main.c(11,43): warning C4101: 'mot' : variable locale non référencée
+C:\Users\anas\Desktop\programing\Test\Test\main.c(11,10): warning C4101: 'caractere' : variable locale non référencée
+C:\Users\anas\Desktop\programing\Test\Test\main.c(10,11): warning C4101: 'dicimale' : variable locale non référencée
+C:\Users\anas\Desktop\programing\Test\Test\main.c(9,41): warning C4101: 'entiers' : variable locale non référencée
+  Test.vcxproj -> C:\Users\anas\Desktop\programing\Test\Debug\Test.exe

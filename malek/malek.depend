@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1314894556 source:c:\users\hdcom\desktop\programing\malek\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1604593982 source:c:\users\hdcom\desktop\programing\operations\main.c
+	<stdio.h>
+	<stdlib.h>
+

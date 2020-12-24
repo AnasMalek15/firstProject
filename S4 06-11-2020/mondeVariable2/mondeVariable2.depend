@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1604677419 source:c:\users\hdcom\desktop\programing\s4 06-11-2020\mondevariable2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1604677850 source:c:\users\hdcom\desktop\programing\operations\main.c
+	<stdio.h>
+	<stdlib.h>
+

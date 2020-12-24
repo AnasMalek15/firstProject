@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1605030430 source:c:\users\hdcom\desktop\programing\s6 10-11\chaine\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1605198738 source:c:\users\hdcom\desktop\programing\s6 10-11\chaine\execrcicechaine.c
+	<stdio.h>
+	<stdlib.h>
+

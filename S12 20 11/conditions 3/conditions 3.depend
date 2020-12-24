@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1605885549 source:c:\users\anas\desktop\programing\s12 20 11\conditions 3\cond3.c
+
+1605890012 source:c:\users\anas\desktop\programing\s12 20 11\conditions 3\main.c
+	<stdio.h>
+	<stdlib.h>
+

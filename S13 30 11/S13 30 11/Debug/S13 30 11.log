@@ -1,0 +1,4 @@
+﻿  main.c
+  S13 30 11.cpp
+S13 30 11.obj : error LNK2005: _main déjà défini(e) dans main.obj
+C:\Users\anas\Desktop\programing\S13 30 11\Debug\S13 30 11.exe : fatal error LNK1169: un ou plusieurs symboles définis à différentes reprises ont été rencontrés

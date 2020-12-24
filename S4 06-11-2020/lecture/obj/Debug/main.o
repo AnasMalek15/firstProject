@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp wincap rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.StorePurchaseApp" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="12011.1001.1.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="b6eb1e98-b7e1-442a-a6c0-f1d7fc14c64f" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:DisplayTitle</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\AppTiles\StoreStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.22929.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.27011.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.27011.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="StoreExperienceHost.exe" EntryPoint="PurchaseApp.App">
+      <uap:VisualElements AppListEntry="none" DisplayName="ms-resource:DisplayTitle" Square150x150Logo="Assets\AppTiles\StoreMedTile.png" Square44x44Logo="Assets\AppTiles\StoreAppList.png" Description="ms-resource:Description" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\AppTiles\StoreWideTile.png"/>
+        <uap:SplashScreen Image="Assets\AppTiles\StoreSplashScreen.png"/>
+      </uap:VisualElements>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="https://*.*.microsoft.com/" Type="include" WindowsRuntimeAccess="none"/>
+        <uap:Rule Match="https://*.microsoft.com/" Type="include" WindowsRuntimeAccess="none"/>
+        <uap:Rule Match="https://xbox-pay.chinatvpay.com/" Type="include" WindowsRuntimeAccess="none"/>
+        <uap:Rule Match="https://xbox-pay-test.com/" Type="include" WindowsRuntimeAccess="none"/>
+        <uap:Rule Match="https://polkadot.xboxservices.com/" Type="include" WindowsRuntimeAccess="none"/>
+      </uap:ApplicationContentUriRules>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-xbet-survey" DesiredView="default" ReturnResults="none"/>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/
